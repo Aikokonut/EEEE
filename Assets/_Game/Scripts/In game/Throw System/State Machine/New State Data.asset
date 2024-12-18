@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05354a307e1d89640846b5c296d2de2e, type: 3}
+  m_Name: New State Data
+  m_EditorClassIdentifier: 
+  stateList:
+  - name: Pre Throw
+    index: 0
+    scriptAssetList:
+    - {fileID: 11500000, guid: 88ca2178466ad8345a8e877ef917732a, type: 3}
+    positionInGraph:
+      serializedVersion: 2
+      x: 2620
+      y: 2730
+      width: 200
+      height: 69
+  - name: Flying
+    index: 1
+    scriptAssetList:
+    - {fileID: 11500000, guid: e9067e481008f0c4081c5f79fb508813, type: 3}
+    positionInGraph:
+      serializedVersion: 2
+      x: 3000
+      y: 2730
+      width: 200
+      height: 69
+  - name: After Throw
+    index: 2
+    scriptAssetList:
+    - {fileID: 11500000, guid: b86a7c875897897498a9869d585f7052, type: 3}
+    positionInGraph:
+      serializedVersion: 2
+      x: 2790
+      y: 2890
+      width: 200
+      height: 69
+  stateTransitionList:
+  - startIndex: 0
+    endIndex: 1
+  - startIndex: 1
+    endIndex: 2
+  - startIndex: 2
+    endIndex: 0
+  camPostion: {x: -2500, y: -2500}
+  zoomLevel: 1
+  entryStateIndex: 0

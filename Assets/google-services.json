@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501657621421",
+    "project_id": "disc-golf-df54a",
+    "storage_bucket": "disc-golf-df54a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501657621421:android:c5353d325e14c58a408724",
+        "android_client_info": {
+          "package_name": "com.kigor.discgolf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGZ3VhnU6R54ZdBpjWEjUzep_MkarnDgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
